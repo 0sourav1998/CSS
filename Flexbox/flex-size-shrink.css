@@ -1,0 +1,24 @@
+#outer{
+    height: 500px;
+    width: 600px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    align-items: flex-end;
+    /* flex-wrap: wrap; */
+    
+}
+
+#three{
+    flex-shrink: 2;
+}
+#four{
+    flex-shrink: 3;
+}
+.myClass{
+    height: 100px;
+    width: 50px;
+    color: black;
+}

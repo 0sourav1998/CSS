@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        div{
+            height: 100px;
+            width: 50px;
+            background-color: cornflowerblue;
+            border: 2px solid black;
+            text-align: center;
+            /* animation-name: animate;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            animation-delay: 0s;
+            animation-iteration-count: 4;
+            animation-direction: alternate-reverse; */
+            animation: animate 2s ease-in 0s 4 alternate-reverse;
+            /* Animation --> State change one to another  */
+        }
+        @keyframes animate{
+            /* from{
+                width: 50px;
+                font-size: 10px;
+                background: cornflowerblue;
+            }
+            to{
+                width: 400px;
+                font-size: 20px;
+                background-color: lightcoral;
+            } */
+
+            0%{
+                width: 50px;
+                font-size: 10px;
+                background: cornflowerblue;
+            }
+            25%{
+                width: 100px;
+                font-size: 13px;
+                background: lightblue;
+            }
+            50%{
+                width: 200px;
+                font-size: 17px;
+                background: darkcyan;
+            }
+            100%{
+                width: 400px;
+                font-size: 20px;
+                background: lightcoral;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Animations
+    </h1>
+    <div>this is a bos</div>
+</body>
+</html>

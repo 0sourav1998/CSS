@@ -1,0 +1,23 @@
+/* align-self property is same as align items but align-items are for of elements but align-self for a individual element and to its cross-axis */
+#outer{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    align-items: center;
+    
+
+}
+#org{
+    align-self: flex-start;
+    /* higher priority than align-items: ; */
+} 
+
+.myClass{
+    height: 50px;
+    width: 50px;
+    color: black;
+}

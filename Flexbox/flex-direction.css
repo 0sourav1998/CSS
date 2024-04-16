@@ -1,0 +1,17 @@
+#outer{
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row; */
+    /* by default it is row  */
+    flex-direction: column;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+}
+.myClass{
+    height: 50px;
+    width: 100%;
+    color: black;
+}

@@ -1,0 +1,25 @@
+#outer{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    align-items: flex-end;
+    
+}
+
+#one{
+    flex-grow: 2;
+    /* occupie the whole width as flex-direction is in row; */
+    /* flex grow only applicable when their is an extra space in the container */
+}
+#two{
+    flex-grow: 4;
+}
+.myClass{
+    height: 50px;
+    width: 50px;
+    color: black;
+}

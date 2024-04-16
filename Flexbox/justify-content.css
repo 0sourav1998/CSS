@@ -1,0 +1,19 @@
+#outer{
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row-reverse ; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start ; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* justify-content is used to manage space according to its main-axis; */
+}
+.myClass{
+    height: 50px;
+    width: 50px;
+    color: black;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediaQuaries</title>
+    <style>
+        div{
+            height: 50px;
+            background-color: cornflowerblue;
+        }
+        h1{
+            padding: 0px;
+        }
+
+        @media(max-width : 300px){
+            div{
+                background-color: lawngreen;
+            }
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                color: red;
+            }
+        }
+
+        @media (min-width: 300px) and (max-width: 600px){
+            div{
+                background-color: lightcoral;
+                color: black;
+            }
+            h1{
+                font-family: 'Courier New', Courier, monospace;
+                color: blue;
+            }
+        }
+
+        @media(min-width : 600px){
+            div{
+                background-color: blueviolet;
+            }
+            h1{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: chartreuse;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- MediaQuaries helps a website to became responsive -->
+    <div>
+        <h1>MediaQuaries</h1>
+    </div>
+</body>
+</html>

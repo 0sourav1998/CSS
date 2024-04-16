@@ -1,0 +1,24 @@
+#outer{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    /* flex-direction: row;
+    justify-content:flex-start ;
+    align-items: flex-end; */
+    /* align-items --> accprding to cross axis; */
+    /* flex-direction: column;
+    justify-content:flex-start ;
+    align-items: flex-end; */
+    flex-direction: row;
+    justify-content:flex-start ;
+    align-items: center;
+    
+
+}
+.myClass{
+    height: 50px;
+    width: 50px;
+    color: black;
+}
